@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style> .R4{height: 500px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.R4C1{background-color: rgb(255, 4, 4);
+  width: 100px;;
+  text-align: center;
+  
+  float: left;
+  height: 300px;
+
+}
+.R4C2{background-color:whitesmoke;
+  width: 30%;
+  text-align: center;
+  float: left;
+  height: 300px;
+ 
+
+}
+.R4C3{background-color: rgb(255, 4, 4);
+  width: 100px;
+  text-align: center;
+  float: left;
+  height: 300px;
+  </style>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+  });
+});
+</script>
+</head>
+<body align="center">
+
+<button>fade in </button>
+<button>fade out</button>
+<button>Clink  to fade in/out boxes</button><br><br>
+
+<div id="div1" style="width:500px;height:100px;background-color:orange;"></div>
+<br>
+<div id="div2" style="width:500px;height:100px;background-color:whitesmoke;">
+<img src="Ashoka_Chakra.svg.png" align="center" hight="100px" width="100px"><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="canada.png"  padding-top: 60%; hight="200px" width="200px">
+</div> <br>
+<div id="div3" style="width:500px;height:100px;background-color:green;"></div><br><br>
+<div class="R4">
+  <div class="R4C1"></div>
+  <div class="R4C2"></div>
+ 
+  <div class="R4C3"></div>
+</div>
+
+
+</body>
+</html>
